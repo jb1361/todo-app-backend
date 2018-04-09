@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
+    $tasks = [
+
+
+    ];
+
     return view('welcome');
 });
